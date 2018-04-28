@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "es2015", "react", "stage-1",
+  ],
+  "env": {
+    "test": {
+      "plugins": ["istanbul"],
+    },
+    "development": {
+      "plugins": [],
+    },
+    "production": {
+      "ignore": [
+        "./server/server-dev.js",
+      ],
+      "plugins": [
+      ],
+    },
+  },
+}

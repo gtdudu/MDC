@@ -1,0 +1,40 @@
+
+/*
+** RESET
+ */
+
+*, *:after, *:before {
+  outline-color: #eeeeee;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  margin: 0;
+  color: #4b4848;
+}
+
+root {
+}
+body, #root, #root > *, root > div > div {
+}
+
+p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+ul {
+
+  line-height: 70px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}

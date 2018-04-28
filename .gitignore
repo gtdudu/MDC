@@ -1,0 +1,10 @@
+node_modules
+build
+.editorconfig
+.DS_Store
+.nyc_output/
+.tmp/
+.env_prod
+coverage/
+data
+dump.rdb
